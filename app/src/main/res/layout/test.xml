@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+
+    <GridLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_g"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"
+            />
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_bigbang"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"/>
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_g2"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"/>
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_joyce"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"
+            />
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_joyce"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"/>
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_joyce"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"/>
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_g"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"
+            />
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_joyce2"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"/>
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_g2"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"/>
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_g"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"
+            />
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_bigbang"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"/>
+
+        <com.raymondqk.raymusicplayer.customview.AvatarCircle
+            style="@style/launcher_avatar"
+            android:src="@drawable/avatar_g2"
+            app:StrokeColor="@color/white"
+            app:StrokeWidth="2dp"/>
+
+    </GridLayout>
+</RelativeLayout>
+    <!--
+
+    -->
